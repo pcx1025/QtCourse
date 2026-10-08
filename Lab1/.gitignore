@@ -1,0 +1,24 @@
+# 构建目录
+build-*/
+debug/
+release/
+
+# Qt Creator 用户配置
+*.pro.user
+*.pro.user.*
+
+# 编译产物
+*.o
+*.exe
+*.dll
+*.so
+*.dylib
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+*.moc
+*.app
+
+# 其他
+*.log
+*.tmp
